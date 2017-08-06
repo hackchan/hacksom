@@ -1,0 +1,29 @@
+{
+  "name": "hackson",
+  "version": "0.1.0",
+  "description": "Tradutor de idioma hacksom",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --compact --no-comments --out-dir dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackchan/hacksom.git"
+  },
+  "author": "Fabio Rojas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hackchan/hacksom/issues"
+  },
+  "homepage": "https://github.com/hackchan/hacksom#readme",
+  "dependencies": {
+    "save-dev": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  }
+}
